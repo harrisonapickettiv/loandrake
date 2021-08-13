@@ -66,3 +66,8 @@ footer .social > a:hover {
 main > .container {
   padding: 60px 15px 0;
 }
+
+.textLogo {
+  font-family: "Rakkas", cursive;
+  font-size: 1.8rem;
+}
