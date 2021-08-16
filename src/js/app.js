@@ -1,5 +1,6 @@
-// This is a comment
+import { loanDrake } from "./loanDrake";
 
-const helloWorld = () => {
-  console.log("Hello, World!");
+document.getElementById("btnSubmit").onclick = (event) => {
+  event.preventDefault();
+  loanDrake();
 };
